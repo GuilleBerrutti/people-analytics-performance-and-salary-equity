@@ -1,6 +1,3 @@
-# people-analytics-dashboard
-Análisis integral de gestión de talento y rotación de personal desarrollado con Excel y Power BI.
-
 # 📊 People Analytics - Dashboard de Gestión de Talento
 
 ## 📝 Descripción del Proyecto
