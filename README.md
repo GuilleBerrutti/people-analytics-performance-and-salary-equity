@@ -27,8 +27,11 @@ El análisis de este dataset permite extraer las siguientes conclusiones clave p
 ## 🚀 Características Técnicas
 
 * **Análisis de Dotación:** Visualización del estado de los empleados (Activo vs. Inactivo).
+
 * **Inversión en Nómina:** Desglose detallado del promedio salarial por departamentos.
+
 * **Integración Avanzada con Python:** Uso de la librería `Seaborn` para superar las limitaciones de los gráficos nativos de Power BI, logrando una visualización de densidad salarial mucho más profunda.
+
 * **Diseño UI/UX:** Interfaz optimizada en **Modo Oscuro** para mejorar la legibilidad y resaltar los puntos de datos clave.
 
 ---
