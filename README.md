@@ -4,49 +4,63 @@ Este proyecto presenta un análisis integral de gestión de talento utilizando u
 
 ---
 
-## 🧠 Conclusiones y Valor de Negocio
+## 🧠 Conclusiones del Análisis de Datos
 
-El análisis de este dataset permite extraer las siguientes conclusiones clave para la toma de decisiones en Recursos Humanos:
+Tras el procesamiento y visualización de la estructura organizacional, se determinan los siguientes hallazgos críticos:
 
-* **Identificación de Brechas Salariales:** Mediante el uso de **gráficos de violín**, se identificó no solo el promedio, sino la *densidad* de los salarios. Esto permite detectar si existen "techos de cristal" o si la distribución de sueldos es equitativa en términos de dispersión por género.
-
-* **Eficiencia en la Retención:** El reporte muestra un índice de **86% de personal activo**, permitiendo a la gerencia monitorear la salud de la rotación de manera visual y segmentada por departamento.
-
-* **Optimización de Presupuesto por Área:** La comparativa de promedios salariales destaca a los departamentos de **IT y Finanzas** como los de mayor inversión, facilitando la planificación de futuras contrataciones según el presupuesto disponible.
+1. **Brecha Salarial y Techos de Cristal:** El análisis de densidad mediante gráficos de violín revela que, aunque los promedios pueden parecer cercanos, el género masculino presenta una mayor concentración en los deciles salariales superiores. Esto sugiere la existencia de barreras invisibles para el acceso a cargos de alta jerarquía por parte del género femenino.
+2. **Riesgo de Fuga de Talento (Churn):** Con un **14% de inactividad**, se identifica una oportunidad de mejora en las políticas de retención. Al cruzar estos datos con la antigüedad, se observa que la rotación se concentra en departamentos específicos como Ventas, lo que requiere una revisión de los incentivos locales.
+3. **Desequilibrio en la Carga de Nómina:** El departamento de **IT** lidera el gasto salarial con $3.0M, superando en un 36% al área de Ventas. Esta disparidad indica una alta dependencia de perfiles técnicos especializados, sugiriendo la necesidad de planes de sucesión internos para mitigar el riesgo operativo.
+4. **Segmentación de Fuerza Laboral:** El **86% de la plantilla activa** se distribuye de manera desigual, donde Marketing y Finanzas muestran una estructura más plana, permitiendo una comunicación más ágil en comparación con Recursos Humanos.
 
 ---
 
 ## 🖼️ Evidencia del Análisis (Dashboard)
 
-![Dashboard de People Analytics](preview_dashboard.png)
----
-
-## 🚀 Características Técnicas
-
-* **Análisis de Dotación:** Visualización del estado de los empleados (Activo vs. Inactivo).
-
-* **Inversión en Nómina:** Desglose detallado del promedio salarial por departamentos.
-
-* **Integración Avanzada con Python:** Uso de la librería `Seaborn` para superar las limitaciones de los gráficos nativos de Power BI, logrando una visualización de densidad salarial mucho más profunda.
-
-* **Diseño UI/UX:** Interfaz optimizada en **Modo Oscuro** para mejorar la legibilidad y resaltar los puntos de datos clave.
+![Dashboard de People Analytics](https://github.com/GuilleBerrutti/people-analytics-dashboard/blob/main/tu_imagen.png?raw=true)
 
 ---
 
-## 🛠️ Stack Tecnológico
+## 🐍 Código Python: Visualización de Distribución Salarial
 
-* **Excel:** Fuente de datos y preprocesamiento inicial.
-* **Power BI:** Modelado de datos, medidas DAX y diseño de interfaz.
-* **Python (Pandas, Matplotlib, Seaborn):** Utilizado para el análisis estadístico complejo y la generación de visuales personalizados.
+Para lograr la integración estética y estadística en Power BI, se utilizó el siguiente script de Python (Librerías `Seaborn` y `Matplotlib`):
 
-### 🐍 Fragmento de Código Python Embebido
 ```python
-import seaborn as sns
 import matplotlib.pyplot as plt
+import seaborn as sns
 
-# Configuración de estilo Dark Mode
-plt.rcParams.update({"figure.facecolor": "#000000", "axes.facecolor": "#000000"})
+# 1. Configuración de estilo para Modo Oscuro Puro (#000000)
+plt.rcParams.update({
+    "figure.facecolor": "#000000",
+    "axes.facecolor": "#000000",
+    "axes.edgecolor": "#444444",
+    "axes.labelcolor": "#FFFFFF",
+    "xtick.color": "#FFFFFF",
+    "ytick.color": "#FFFFFF",
+    "text.color": "#FFFFFF",
+    "grid.color": "#222222"
+})
 
-# Generación del gráfico de distribución salarial
-sns.violinplot(x="Genero", y="Salario", data=dataset, palette=["#00f5d4", "#ff006e"])
+# 2. Creación del lienzo
+plt.figure(figsize=(10, 6))
+
+# 3. Gráfico de Violín: Análisis de Densidad Salarial por Género
+# Colores Neón: #00f5d4 (Cyan) y #ff006e (Magenta)
+colores_neon = ["#00f5d4", "#ff006e"]
+ax = sns.violinplot(x="Genero", y="Salario", data=dataset, 
+                    palette=colores_neon, inner="quartile", linewidth=1.5)
+
+# 4. Estilización de líneas de cuartiles
+plt.setp(ax.collections, edgecolor="white")
+
+# 5. Títulos y etiquetas profesionales
+plt.title("Análisis de Distribución Salarial por Género", fontsize=16, fontweight='bold', pad=25)
+plt.xlabel("Género", fontsize=13)
+plt.ylabel("Salario Mensual", fontsize=13)
+
+# 6. Limpieza de bordes (Spines)
+sns.despine(left=True, bottom=False)
+
+# 7. Renderizado final
+plt.tight_layout()
 plt.show()
