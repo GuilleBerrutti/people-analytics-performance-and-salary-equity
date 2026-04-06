@@ -9,7 +9,9 @@ Este proyecto presenta un análisis integral de gestión de talento utilizando u
 El análisis de este dataset permite extraer las siguientes conclusiones clave para la toma de decisiones en Recursos Humanos:
 
 * **Identificación de Brechas Salariales:** Mediante el uso de **gráficos de violín**, se identificó no solo el promedio, sino la *densidad* de los salarios. Esto permite detectar si existen "techos de cristal" o si la distribución de sueldos es equitativa en términos de dispersión por género.
+
 * **Eficiencia en la Retención:** El reporte muestra un índice de **86% de personal activo**, permitiendo a la gerencia monitorear la salud de la rotación de manera visual y segmentada por departamento.
+
 * **Optimización de Presupuesto por Área:** La comparativa de promedios salariales destaca a los departamentos de **IT y Finanzas** como los de mayor inversión, facilitando la planificación de futuras contrataciones según el presupuesto disponible.
 
 ---
