@@ -1,6 +1,7 @@
 # 📊 Gestión de Talento y Equidad Salarial
 
-EL RESULTADO (BLUF): Este proyecto proporciona una solución integral para el monitoreo de KPIs de recursos humanos, permitiendo reducir el tiempo de respuesta ante desvíos de objetivos en un 40% mediante la visualización de datos en tiempo real.
+EL RESULTADO (BLUF):
+Este proyecto proporciona una solución integral para el monitoreo de KPIs de recursos humanos, permitiendo reducir el tiempo de respuesta ante desvíos de objetivos en un 40% mediante la visualización de datos en tiempo real.
 
 ​🚀 El Desafío (Business Problem)
 ​La organización carecía de una visión consolidada del desempeño del personal, lo que dificultaba la identificación de sectores con baja eficiencia o alta rotación de manera temprana.
@@ -17,14 +18,19 @@ EL RESULTADO (BLUF): Este proyecto proporciona una solución integral para el mo
 
 ​Extracción y Limpieza: SQL y Excel avanzado para el procesamiento de datos brutos.
 
-​Visualización: Power BI para la creación de un tablero interactivo.
+​Visualización:
+Power BI para la creación de un tablero interactivo.
 
-​Métricas Clave: Tasa de rotación, cumplimiento de metas individuales y colectivas, y análisis de clima laboral.
+​Métricas Clave:
+Tasa de rotación, cumplimiento de metas individuales y colectivas, y análisis de clima laboral.
 
 ​📈 Impacto y Hallazgos
-​Identificación de Riesgos: El dashboard permite filtrar por departamento para detectar focos de rotación crítica.
+​Identificación de Riesgos:
 
-​Toma de Decisiones: Visualización clara de qué equipos necesitan refuerzos o capacitación para cumplir sus metas mensuales.
+El dashboard permite filtrar por departamento para detectar focos de rotación crítica.
+
+​Toma de Decisiones:
+Visualización clara de qué equipos necesitan refuerzos o capacitación para cumplir sus metas mensuales.
 
 ---
 
