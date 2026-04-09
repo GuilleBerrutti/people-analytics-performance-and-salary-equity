@@ -27,7 +27,6 @@ Tasa de rotación, cumplimiento de metas individuales y colectivas, y análisis 
 
 ​📈 Impacto y Hallazgos
 ​Identificación de Riesgos:
-
 El dashboard permite filtrar por departamento para detectar focos de rotación crítica.
 
 ​Toma de Decisiones:
