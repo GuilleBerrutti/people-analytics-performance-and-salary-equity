@@ -14,11 +14,16 @@ EL RESULTADO (BLUF): Este proyecto proporciona una solución integral para el mo
 ---
 
 ​🛠️ Solución Técnica (The Stack)
+
 ​Extracción y Limpieza: SQL y Excel avanzado para el procesamiento de datos brutos.
+
 ​Visualización: Power BI para la creación de un tablero interactivo.
+
 ​Métricas Clave: Tasa de rotación, cumplimiento de metas individuales y colectivas, y análisis de clima laboral.
+
 ​📈 Impacto y Hallazgos
 ​Identificación de Riesgos: El dashboard permite filtrar por departamento para detectar focos de rotación crítica.
+
 ​Toma de Decisiones: Visualización clara de qué equipos necesitan refuerzos o capacitación para cumplir sus metas mensuales.
 
 ---
