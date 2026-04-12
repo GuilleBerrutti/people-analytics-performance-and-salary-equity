@@ -33,6 +33,7 @@ La organización no contaba con una visión integrada del desempeño del persona
 
 
 
+
 ## 📊 Metodología
 
 El análisis se desarrolló a partir de datos de empleados utilizando:
