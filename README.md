@@ -1,79 +1,101 @@
-# 📊 Gestión de Talento y Equidad Salarial
-
-EL RESULTADO (BLUF):
-Este proyecto proporciona una solución integral para el monitoreo de KPIs de recursos humanos, permitiendo reducir el tiempo de respuesta ante desvíos de objetivos en un 40% mediante la visualización de datos en tiempo real.
-
-​🚀 El Desafío (Business Problem)
-​La organización carecía de una visión consolidada del desempeño del personal, lo que dificultaba la identificación de sectores con baja eficiencia o alta rotación de manera temprana.
+# 📊 Análisis de Gestión de Talento y Equidad Salarial
 
 ---
 
-## 🖼️ Evidencia del Análisis (Dashboard)
+## 🎯 Objetivo del Proyecto
+
+Analizar indicadores clave de recursos humanos para mejorar la toma de decisiones en gestión de talento, con foco en **rotación, desempeño y equidad salarial**.
+
+El proyecto permite monitorear KPIs en tiempo real, facilitando la detección temprana de desvíos y optimizando la respuesta organizacional.
+
+---
+
+## 🧠 Problema de Negocio
+
+La organización no contaba con una visión integrada del desempeño del personal, lo que generaba:
+
+- Dificultad para identificar áreas con alta rotación  
+- Falta de visibilidad sobre cumplimiento de objetivos  
+- Ineficiencia en la asignación de recursos humanos  
+
+👉 Pregunta clave del análisis:
+
+**¿Qué factores están afectando el desempeño y la retención del talento, y cómo se pueden optimizar?**
+
+---
+
+## 📊 Dashboard Interactivo
 
 ![Dashboard de People Analytics](preview_dashboard.png)
 
----
+🔗 **Acceso al dashboard (Power BI):**  
+_Agregar aquí link público si está disponible_
 
-​🛠️ Solución Técnica (The Stack)
-
-​Extracción y Limpieza: 
-SQL y Excel avanzado para el procesamiento de datos brutos.
-
-​Visualización:
-Power BI para la creación de un tablero interactivo.
-
-​Métricas Clave:
-Tasa de rotación, cumplimiento de metas individuales y colectivas, y análisis de clima laboral.
-
-​📈 Impacto y Hallazgos
-​Identificación de Riesgos:
-El dashboard permite filtrar por departamento para detectar focos de rotación crítica.
-
-​Toma de Decisiones:
-Visualización clara de qué equipos necesitan refuerzos o capacitación para cumplir sus metas mensuales.
+📁 **Archivo local:**  
+`/Dashboard/people-analytics.pbix`
 
 ---
 
-## 🐍 Código Python: Visualización de Distribución Salarial
+## 📊 Metodología
 
-Para lograr la integración estética y estadística en Power BI, se utilizó el siguiente script de Python (Librerías `Seaborn` y `Matplotlib`):
+El análisis se desarrolló a partir de datos de empleados utilizando:
+
+- **Extracción y limpieza de datos:** SQL y Excel  
+- **Modelado de datos:** estructuración de métricas de RRHH  
+- **Visualización:** Power BI para exploración interactiva  
+- **Análisis estadístico:** distribución salarial y segmentación  
+
+---
+
+## 💡 Insights Clave
+
+- **Rotación de personal:**  
+  Se identificaron áreas con mayor tasa de rotación, permitiendo enfocar acciones de retención.
+
+- **Desempeño organizacional:**  
+  Diferencias significativas en el cumplimiento de objetivos entre equipos.
+
+- **Equidad salarial:**  
+  Variaciones en la distribución de salarios entre grupos, detectadas mediante análisis de densidad.
+
+- **Clima y eficiencia:**  
+  Relación entre desempeño y posibles necesidades de capacitación en ciertos sectores.
+
+---
+
+## 📈 Conclusión
+
+El análisis demuestra que la gestión del talento puede optimizarse mediante monitoreo continuo y segmentación de datos.
+
+👉 Recomendaciones:
+- Implementar estrategias de retención en áreas críticas  
+- Ajustar políticas salariales para mejorar equidad  
+- Reforzar capacitación en equipos con bajo desempeño  
+
+---
+
+## 🛠️ Stack Tecnológico
+
+- **Power BI** → Visualización y análisis interactivo  
+- **SQL & Excel** → Extracción y limpieza de datos  
+- **Python (Matplotlib & Seaborn)** → Análisis y visualización estadística  
+
+---
+
+## 🐍 Análisis de Distribución Salarial (Python)
+
+Se utilizó Python para analizar la distribución salarial por género mediante un gráfico de densidad:
 
 ```python
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# 1. Configuración de estilo para Modo Oscuro Puro (#000000)
-plt.rcParams.update({
-    "figure.facecolor": "#000000",
-    "axes.facecolor": "#000000",
-    "axes.edgecolor": "#444444",
-    "axes.labelcolor": "#FFFFFF",
-    "xtick.color": "#FFFFFF",
-    "ytick.color": "#FFFFFF",
-    "text.color": "#FFFFFF",
-    "grid.color": "#222222"
-})
-
-# 2. Creación del lienzo
 plt.figure(figsize=(10, 6))
 
-# 3. Gráfico de Violín: Análisis de Densidad Salarial por Género
-# Colores Neón: #00f5d4 (Cyan) y #ff006e (Magenta)
-colores_neon = ["#00f5d4", "#ff006e"]
-ax = sns.violinplot(x="Genero", y="Salario", data=dataset, 
-                    palette=colores_neon, inner="quartile", linewidth=1.5)
+sns.violinplot(x="Genero", y="Salario", data=dataset, inner="quartile")
 
-# 4. Estilización de líneas de cuartiles
-plt.setp(ax.collections, edgecolor="white")
+plt.title("Distribución Salarial por Género")
+plt.xlabel("Género")
+plt.ylabel("Salario Mensual")
 
-# 5. Títulos y etiquetas profesionales
-plt.title("Análisis de Distribución Salarial por Género", fontsize=16, fontweight='bold', pad=25)
-plt.xlabel("Género", fontsize=13)
-plt.ylabel("Salario Mensual", fontsize=13)
-
-# 6. Limpieza de bordes (Spines)
-sns.despine(left=True, bottom=False)
-
-# 7. Renderizado final
-plt.tight_layout()
 plt.show()
