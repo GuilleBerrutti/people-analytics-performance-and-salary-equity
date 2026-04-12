@@ -29,7 +29,7 @@ La organización no contaba con una visión integrada del desempeño del persona
 ![Dashboard de People Analytics](preview_dashboard.png)
 
 🔗 **Acceso al dashboard (Power BI):**  
-_Agregar aquí link público si está disponible_
+https://github.com/GuilleBerrutti/people-analytics-dashboard/blob/main/dashboard_gestion_talento.pbix
 
 📁 **Archivo local:**  
 `/Dashboard/people-analytics.pbix`
