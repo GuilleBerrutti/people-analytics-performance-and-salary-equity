@@ -56,4 +56,4 @@ La organización no contaba con visibilidad centralizada sobre indicadores crít
 ### 🐍 Análisis Estadístico
 Se utilizó Python para analizar la distribución salarial y detectar patrones de variación entre segmentos organizacionales.
 
-👉 [Ver script de análisis salarial](salary_distribution_analysis.py)
+👉 [Ver script de análisis salarial](https://github.com/GuilleBerrutti/people-analytics-performance-and-salary-equity/blob/main/salary_distribution_analysis.py)
