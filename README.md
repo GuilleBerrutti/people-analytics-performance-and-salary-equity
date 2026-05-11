@@ -53,61 +53,7 @@ La organización no contaba con visibilidad centralizada sobre indicadores crít
 
 ---
 
-# 📦 KPIs Estratégicos Analizados
-
-- Tasa de rotación de empleados
-- Distribución salarial por segmento
-- Nivel de cumplimiento de objetivos
-- Performance por departamento
-- Headcount organizacional
-- Comparativa salarial por género
-- Distribución de desempeño
-- Riesgo de fuga de talento
-
----
-
-
-# 🛠️ Metodología Analítica
-
-El proyecto fue desarrollado mediante un flujo completo de análisis de datos:
-
-### 📥 Extracción y Transformación
-- Limpieza y preparación de datos con SQL y Excel
-- Normalización de métricas de RRHH
-- Validación y estructuración del dataset
-
-### 📊 Modelado y Visualización
-- Construcción de dashboard ejecutivo en Power BI
-- Diseño de KPIs estratégicos
-- Segmentación organizacional
-
 ### 🐍 Análisis Estadístico
-- Distribución salarial
-- Análisis de densidad
-- Comparativas entre segmentos
-- Detección de patrones de comportamiento
+Se utilizó Python para analizar la distribución salarial y detectar patrones de variación entre segmentos organizacionales.
 
----
-
-# 🐍 Análisis de Distribución Salarial en Python
-
-Se utilizó Python para analizar patrones de distribución salarial y detectar variaciones entre segmentos organizacionales.
-
-```python
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-plt.figure(figsize=(10, 6))
-
-sns.violinplot(
-    x="Genero",
-    y="Salario",
-    data=dataset,
-    inner="quartile"
-)
-
-plt.title("Distribución Salarial por Género")
-plt.xlabel("Género")
-plt.ylabel("Salario Mensual")
-
-plt.show()
+👉 [Ver script de análisis salarial](salary_distribution_analysis.py)
