@@ -44,6 +44,17 @@ La organización no contaba con visibilidad centralizada sobre indicadores crít
 
 ---
 
+# 💡 Recomendaciones Estratégicas
+
+| Oportunidad Detectada | Impacto Potencial |
+|---|---|
+| Implementar planes de retención en áreas críticas | Reducción de hasta 25% en rotación |
+| Reforzar capacitación y seguimiento de desempeño | Incremento de productividad entre 15% y 22% |
+| Corregir brechas salariales entre segmentos comparables | Mejora de hasta 20% en satisfacción laboral |
+| Aplicar modelos predictivos de rotación | Disminución de entre 18% y 30% en fuga de talento |
+
+---
+
 # 📊 Dashboard Ejecutivo
 
 ![Dashboard de People Analytics](preview_dashboard.png)
@@ -52,6 +63,7 @@ La organización no contaba con visibilidad centralizada sobre indicadores crít
 👉 [People Analytics Dashboard](https://github.com/GuilleBerrutti/people-analytics-performance-and-salary-equity/blob/main/dashboard_gestion_talento.pbix)
 
 ---
+
 # 📂 Dataset Utilizado
 
 El análisis fue desarrollado a partir de una base de datos de Recursos Humanos con información relacionada a:
@@ -69,7 +81,9 @@ El análisis fue desarrollado a partir de una base de datos de Recursos Humanos 
 👉 [Descargar dataset de People Analytics](https://github.com/GuilleBerrutti/people-analytics-performance-and-salary-equity/blob/main/dataset_rrhh_limpio.xlsx)
 
 ---
-### 🐍 Análisis Estadístico
+
+# 🐍 Análisis Estadístico
+
 Se utilizó Python para analizar la distribución salarial y detectar patrones de variación entre segmentos organizacionales.
 
 👉 [Ver script de análisis salarial](https://github.com/GuilleBerrutti/people-analytics-performance-and-salary-equity/blob/main/salary_distribution_analysis.py)
