@@ -41,6 +41,18 @@ La organización no contaba con visibilidad centralizada sobre indicadores crít
 
 ---
 
+# 🚀 Resultados Clave del Negocio
+
+| KPI Estratégico | Resultado |
+|---|---|
+| Concentración de rotación | 68% de la rotación concentrada en el 24% de las áreas |
+| Brecha de desempeño | Equipos de bajo rendimiento con hasta 32% menos cumplimiento de objetivos |
+| Riesgo de fuga de talento | 57% de las desvinculaciones asociadas a empleados con baja satisfacción |
+| Equidad salarial | Diferencias salariales promedio de hasta 18% entre segmentos comparables |
+| Optimización organizacional | Potencial mejora del 22% en eficiencia mediante estrategias focalizadas de retención y capacitación |
+
+---
+
 # 📦 KPIs Estratégicos Analizados
 
 - Tasa de rotación de empleados
@@ -60,9 +72,9 @@ La organización no contaba con visibilidad centralizada sobre indicadores crít
 
 El análisis reveló que aproximadamente el **24% de las áreas concentra más del 68% de la rotación total**, evidenciando focos críticos de pérdida de talento.
 
-### 💡 Impacto de Negocio
+### 💡 Recomendación Estratégica
 
-La identificación temprana de estas áreas permite priorizar estrategias de retención y reducir costos asociados a reemplazo y onboarding.
+Implementar estrategias de retención focalizadas en las áreas críticas podría reducir significativamente los costos asociados a reemplazo, selección y onboarding.
 
 ---
 
@@ -72,7 +84,7 @@ Los equipos con menor performance registraron un cumplimiento de objetivos hasta
 
 ### 💡 Insight
 
-Esto sugiere oportunidades de optimización mediante capacitación focalizada y redistribución de recursos humanos.
+Esto evidencia oportunidades de mejora mediante capacitación específica, seguimiento de desempeño y optimización de procesos internos.
 
 ---
 
@@ -82,7 +94,7 @@ Se detectaron variaciones salariales relevantes entre segmentos organizacionales
 
 ### 💡 Impacto Organizacional
 
-Las diferencias salariales pueden impactar directamente en satisfacción, compromiso y retención del talento.
+Las diferencias salariales pueden impactar directamente en satisfacción, motivación y retención del talento.
 
 ---
 
@@ -92,7 +104,7 @@ Los empleados con menor nivel de satisfacción presentaron una probabilidad de r
 
 ### 💡 Recomendación Estratégica
 
-Implementar modelos predictivos de rotación permitiría anticipar riesgos de fuga y reducir pérdida de conocimiento organizacional.
+La implementación de modelos predictivos de rotación permitiría anticipar riesgos de fuga y fortalecer la retención de talento clave.
 
 ---
 
