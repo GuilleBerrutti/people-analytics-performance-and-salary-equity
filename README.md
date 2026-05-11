@@ -49,7 +49,7 @@ La organización no contaba con visibilidad centralizada sobre indicadores crít
 ![Dashboard de People Analytics](preview_dashboard.png)
 
 🔗 **Acceso al dashboard interactivo:**  
-👉 [People Analytics Dashboard](https://github.com/GuilleBerrutti/people-analytics-dashboard/blob/main/dashboard_gestion_talento.pbix)
+👉 [People Analytics Dashboard](https://github.com/GuilleBerrutti/people-analytics-performance-and-salary-equity/blob/main/dashboard_gestion_talento.pbix)
 
 ---
 
