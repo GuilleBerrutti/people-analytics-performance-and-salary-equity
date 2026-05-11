@@ -32,15 +32,6 @@ La organización no contaba con visibilidad centralizada sobre indicadores crít
 
 ---
 
-# 📊 Dashboard Ejecutivo
-
-![Dashboard de People Analytics](preview_dashboard.png)
-
-🔗 **Acceso al dashboard interactivo:**  
-👉 [People Analytics Dashboard](https://github.com/GuilleBerrutti/people-analytics-dashboard/blob/main/dashboard_gestion_talento.pbix)
-
----
-
 # 🚀 Resultados Clave del Negocio
 
 | KPI Estratégico | Resultado |
@@ -50,6 +41,15 @@ La organización no contaba con visibilidad centralizada sobre indicadores crít
 | Riesgo de fuga de talento | 57% de las desvinculaciones asociadas a empleados con baja satisfacción |
 | Equidad salarial | Diferencias salariales promedio de hasta 18% entre segmentos comparables |
 | Optimización organizacional | Potencial mejora del 22% en eficiencia mediante estrategias focalizadas de retención y capacitación |
+
+---
+
+# 📊 Dashboard Ejecutivo
+
+![Dashboard de People Analytics](preview_dashboard.png)
+
+🔗 **Acceso al dashboard interactivo:**  
+👉 [People Analytics Dashboard](https://github.com/GuilleBerrutti/people-analytics-dashboard/blob/main/dashboard_gestion_talento.pbix)
 
 ---
 
