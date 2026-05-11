@@ -66,47 +66,6 @@ La organización no contaba con visibilidad centralizada sobre indicadores crít
 
 ---
 
-# 📈 Insights Estratégicos
-
-## 🔄 Concentración de Rotación
-
-El análisis reveló que aproximadamente el **24% de las áreas concentra más del 68% de la rotación total**, evidenciando focos críticos de pérdida de talento.
-
-### 💡 Recomendación Estratégica
-
-Implementar estrategias de retención focalizadas en las áreas críticas podría reducir significativamente los costos asociados a reemplazo, selección y onboarding.
-
----
-
-## 📉 Brechas de Desempeño Organizacional
-
-Los equipos con menor performance registraron un cumplimiento de objetivos hasta **32% inferior** respecto a las áreas de alto rendimiento.
-
-### 💡 Insight
-
-Esto evidencia oportunidades de mejora mediante capacitación específica, seguimiento de desempeño y optimización de procesos internos.
-
----
-
-## 💰 Distribución y Equidad Salarial
-
-Se detectaron variaciones salariales relevantes entre segmentos organizacionales, con diferencias promedio de hasta **18% entre grupos comparables**.
-
-### 💡 Impacto Organizacional
-
-Las diferencias salariales pueden impactar directamente en satisfacción, motivación y retención del talento.
-
----
-
-## 📊 Riesgo de Pérdida de Talento
-
-Los empleados con menor nivel de satisfacción presentaron una probabilidad de rotación significativamente superior, concentrando aproximadamente el **57% de las desvinculaciones analizadas**.
-
-### 💡 Recomendación Estratégica
-
-La implementación de modelos predictivos de rotación permitiría anticipar riesgos de fuga y fortalecer la retención de talento clave.
-
----
 
 # 🛠️ Metodología Analítica
 
