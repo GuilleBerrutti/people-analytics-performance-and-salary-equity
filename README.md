@@ -52,7 +52,23 @@ La organización no contaba con visibilidad centralizada sobre indicadores crít
 👉 [People Analytics Dashboard](https://github.com/GuilleBerrutti/people-analytics-performance-and-salary-equity/blob/main/dashboard_gestion_talento.pbix)
 
 ---
+# 📂 Dataset Utilizado
 
+El análisis fue desarrollado a partir de una base de datos de Recursos Humanos con información relacionada a:
+
+- Salarios
+- Desempeño
+- Rotación
+- Departamentos
+- Satisfacción laboral
+- Género
+- Antigüedad
+- Cumplimiento de objetivos
+
+📥 **Acceso al dataset:**  
+👉 [Descargar dataset de People Analytics](data/people_analytics_dataset.xlsx)
+
+---
 ### 🐍 Análisis Estadístico
 Se utilizó Python para analizar la distribución salarial y detectar patrones de variación entre segmentos organizacionales.
 
