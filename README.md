@@ -66,7 +66,7 @@ El análisis fue desarrollado a partir de una base de datos de Recursos Humanos 
 - Cumplimiento de objetivos
 
 📥 **Acceso al dataset:**  
-👉 [Descargar dataset de People Analytics](data/people_analytics_dataset.xlsx)
+👉 [Descargar dataset de People Analytics](https://github.com/GuilleBerrutti/people-analytics-performance-and-salary-equity/blob/main/dataset_rrhh_limpio.xlsx)
 
 ---
 ### 🐍 Análisis Estadístico
